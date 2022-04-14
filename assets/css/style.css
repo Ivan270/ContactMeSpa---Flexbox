@@ -9,41 +9,59 @@
     justify-content: flex-start;
 }
 
+/* BARRA IZQUIERDA - CHATS */
 #chat {
     flex-basis: 20%;
-    height: 100vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
 }
 
+/* PRIMERA FILA - MARIA */
 #maria-profile {
     border: 1px solid #E8EBE4;
-    padding: 15px;
-}
-
-#maria-pic {
-    width: 50px;
-    height: auto;
-    border-radius: 50%;
-    object-fit: contain;
-    flex-basis: 10%;
-}
-
-.chat-contact {
-    padding: 10px;
-    border: 1px solid #E8EBE4;
-    flex-basis: 10%;
+    padding: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
+#maria-pic {
+    border: 2px solid #E8EBE4;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: contain;
+    flex-basis: 5%;
+}
+
+.maria-profile-text {
+    flex-basis: 60%;
+}
+
+.maria-profile-text h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.maria-profile-text p {
+    font-size: 12px;
+    color: #BEC1BB;
+}
+
+.logos {
+    flex-basis: 20%;
+    color: #BEC1BB;
+}
+
+.logos :last-child {
+    margin-left: 10px;
+}
+
+/* 2A FILA - BOTÓN NUEVO CHAT */
 .btn {
-    padding: 10px;
+    padding: 50px 0px;
     border: 1px solid #E8EBE4;
-    flex-basis: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,24 +71,43 @@
     border: none;
     background-color: #A491D2;
     color: white;
+    font-size: 20px;
     height: 50px;
-    width: 180px;
+    width: 60%;
+}
+
+/* 3A A 10A FILA - FILAS DE CONTACTOS */
+.chat-contact {
+    padding: 20px;
+    border: 1px solid #E8EBE4;
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .chat-contact img {
-    width: 70px;
+    width: 60px;
     height: auto;
+    border: 2px solid #E8EBE4;
     border-radius: 50%;
     object-fit: contain;
-
+    flex-basis: 5%;
+    margin-right: 10px;
 }
 
+.chat-contact-text {
+    flex-basis: 95%;
+}
+
+.chat-contact-text h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
 
 #fondo {
     background-color: #E8EBE4;
     flex-basis: 80%;
-    height: 100vh;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
