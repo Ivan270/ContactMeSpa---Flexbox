@@ -11,7 +11,7 @@
 
 /* BARRA IZQUIERDA - CHATS */
 #chat {
-    flex-basis: 23%;
+    flex-basis: 22%;
     display: flex;
     flex-direction: column;
 }
@@ -19,7 +19,7 @@
 /* PRIMERA FILA - MARIA */
 #maria-profile {
     border: 1px solid #E8EBE4;
-    padding: 20px;
+    padding: 14px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,6 @@
 #maria-pic {
     border: 2px solid #E8EBE4;
     width: 50px;
-    height: auto;
     margin-right: 10px;
     border-radius: 50%;
     object-fit: contain;
@@ -46,16 +45,19 @@
 
 .maria-profile-text p {
     font-size: 12px;
-    color: #BEC1BB;
+    color: #A9ADB5;
 }
 
 .logos {
-    flex-basis: 20%;
-    color: #BEC1BB;
+    flex-basis: 30%;
+    color: #959797;
+    display: flex;
+    justify-content: end;
+
 }
 
 .logos :last-child {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* 2A FILA - BOTÓN NUEVO CHAT */
@@ -72,13 +74,13 @@
     background-color: #A491D2;
     color: white;
     font-size: 20px;
-    height: 50px;
-    width: 60%;
+    height: 60px;
+    width: 65%;
 }
 
 /* 3A A 10A FILA - FILAS DE CONTACTOS */
 .chat-contact {
-    padding: 20px;
+    padding: 16px;
     border: 1px solid #E8EBE4;
     flex-basis: 10%;
     display: flex;
@@ -87,8 +89,7 @@
 }
 
 .chat-contact img {
-    width: 60px;
-    height: auto;
+    width: 70px;
     border: 2px solid #E8EBE4;
     border-radius: 50%;
     object-fit: contain;
@@ -105,9 +106,10 @@
     font-weight: 400;
 }
 
+/* BARRA DERECHA FONDO-MANO */
 #fondo {
     background-color: #F8F8F8;
-    flex-basis: 77%;
+    flex-basis: 78%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,7 +123,6 @@
 
 #img-manos img {
     width: 60%;
-    height: auto;
     border-radius: 5%;
 }
 
