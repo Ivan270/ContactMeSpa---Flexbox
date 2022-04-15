@@ -78,6 +78,10 @@
     width: 65%;
 }
 
+.btn button:hover {
+    background-color: #CDC3E6;
+}
+
 /* 3A A 10A FILA - FILAS DE CONTACTOS */
 .chat-contact {
     padding: 16px;
